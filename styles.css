@@ -1,0 +1,56 @@
+img.logo-branding {
+    max-width: 250%;
+}
+img.logo-footer {
+    max-width: 350%;
+}
+.navigation {
+    position: absolute;
+}
+@media screen and (max-width: 767px) {
+    img.logo-footer {
+        display: none;
+    }
+    .footer {
+        padding-top: 0px;
+    }
+}
+a.w-webflow-badge {
+    display: none !important;
+}
+.hero-left-image-div {
+    background-image: url(https://i.ibb.co/vm4MCcf/background-site-1.jpg);
+}
+.hero-right-image-div {
+    background-image: url(https://i.ibb.co/LpbwVQd/background-site-2.jpg);
+}
+.cta-background-div {
+    background-image: url(https://i.ibb.co/sRD629t/background-site-3.jpg);
+}
+div.subtitle-text {
+    color: #fff;
+}
+h2.h2.center {
+    color: #fff;
+}
+a.button.w-button {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+a.button.w-button:hover {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.footer-social-icon-div {
+    background-image: url(https://i.ibb.co/vX1jj7K/tiktok-logo.png);
+}
+.footer-social-icon-div.twitter {
+    background-image: url(https://i.ibb.co/1M1qxWM/logo-tipee.jpg);
+}
+@media screen and (max-width: 464px){
+.blog-rich-text-div {
+    margin-top: 80px;
+}
+}
