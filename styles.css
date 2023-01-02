@@ -46,6 +46,15 @@ a.button.w-button:hover {
 .footer-social-icon-div {
     background-image: url(https://i.ibb.co/vX1jj7K/tiktok-logo.png);
 }
+.footer-social-icon-gmail {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url(https://i.ibb.co/DMmkH97/gmail-logo.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .footer-social-icon-div.twitter {
     background-image: url(https://i.ibb.co/1M1qxWM/logo-tipee.jpg);
 }
@@ -57,4 +66,9 @@ a.button.w-button:hover {
 
 h3.articles {
     font-size: 105%;
+}
+/*--------------Espace membre page---------------------*/
+
+span.disponible {
+    font-weight: bold;
 }
