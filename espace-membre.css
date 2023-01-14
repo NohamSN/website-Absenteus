@@ -1,0 +1,38 @@
+div.section.about-us {
+background: no-repeat 50% 50% / cover;
+  width: 100%;
+  min-height: 80vh;
+  place-content: center;
+  place-items: center;
+  display: grid;
+  text-align: center;
+  padding: min(4em, 70vh) 2em;
+}
+.w-webflow-badge>img {
+    display: none !important;
+    
+}
+.w-webflow-badge {
+    display: none !important;
+
+}
+.button-cadre-blog {
+padding: 0.7em;
+background: #fff;
+color: #3434ff;
+border-radius: 20px;
+}
+img.logo-footer-espmembre {
+    width: 200px;
+    height: 95px;
+}
+.section {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 991px) {
+.section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+}

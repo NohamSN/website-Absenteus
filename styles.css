@@ -84,7 +84,7 @@ h6.h6-commu {
     padding-top: 0px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 .w-layout-grid-commu {
     display: block;
@@ -115,7 +115,7 @@ img.commu-valid {
 }
 a.button-commu {
     display: block;
-    background-color: #42dd73;
+    background-color: #3434ff;
     color: #fff;
     align-items: center;
     margin-top: 70px;
@@ -130,7 +130,7 @@ a.button-commu {
     border-color: transparent;
 }
 a.button-commu:hover {
-    background-color: #3fb865;
+    background-color: #2020a2;
     animation-duration: 2s;
     animation: ease-in;
 }
@@ -141,4 +141,9 @@ a.button-commu:hover {
         margin-left: 30%;
         
     }
+}
+p.price-p {
+    text-align: center;
+    color: #2020a2;
+    padding: 0.2em;
 }
